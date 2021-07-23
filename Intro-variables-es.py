@@ -106,3 +106,18 @@ float, str, etc.
 type('Hola') # Salida: str
 type(5)      # Salida: int
 type(4.)     # Salida: float
+
+# Ejercicio con operaciones
+x = 0.5
+
+x = 5 * x * (12 - x)
+print(x)
+# Salida 28.75
+
+# Operación
+12 - x = 11.5
+5 * x = 2.5
+x = 11.5 * 2.5
+
+print(x)
+# salida 28.75
