@@ -11,7 +11,7 @@ Existen algunas restricciones a la hora de nombrar una variable que hay que tene
 v5 = 5  # Si
 5v = 5  # No
 
-# Strings y multipalabra
+# Strings / multipalabra
 nombreUsuario = "Cristina"  # Si
 nombre Usuario = "Cristina" # No
 
