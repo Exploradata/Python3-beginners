@@ -38,4 +38,4 @@ for url in urls:
     elif url.startswith('/'):
         print('SLUG:', url)
     else:
-        print('TAG:', url
+        print('TAG:', url)
