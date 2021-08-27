@@ -2,9 +2,6 @@
 from bs4 import BeautifulSoup
 import urllib.request
 
-import urllib.request
-from bs4 import BeautifulSoup
-
 # Petición/lectura
 url = 'https://es.wikipedia.org/wiki/Web_scraping'
 html = urllib.request.urlopen(url).read()
