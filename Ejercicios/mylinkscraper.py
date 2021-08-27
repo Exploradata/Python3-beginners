@@ -8,7 +8,7 @@ html = urllib.request.urlopen(url).read()
 soup = BeautifulSoup(html, 'html.parser')
 
 # Título del sitio en formato str
-title = soup.find(id = 'firstHeading')
+title = soup.find(id='firstHeading')
 
 print('Título del sitio:', soup.title.string)
 print('Artículo:', title.string, '\n')
@@ -16,7 +16,7 @@ print('Artículo:', title.string, '\n')
 # Número de enlaces
 count = 0
 # Tipo de etiqueta
-tag = soup('a', href= True)
+tag = soup('a', href=True)
 # Filtro para https, tags y slugs
 indx = 'h'
 
