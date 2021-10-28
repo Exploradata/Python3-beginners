@@ -1,5 +1,9 @@
-# Ejemplo práctico sobre Polimorfismo en Python.
-
+'''
+Autor: Exploradata.com
+Código: Se trata  de un ejemplo de polimorfismo basado en un
+programa que dependiendo del estado de la cuenta, mostrará un
+tipo de información u otra.
+'''
 class Radio:
     def __init__(self, status):
         self.status = status
